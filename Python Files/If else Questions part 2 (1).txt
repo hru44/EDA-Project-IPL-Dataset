@@ -1,0 +1,53 @@
+1. Accept the percentage from the user and display the  grade according to the following criteria:
+
+    Below 25 —- D
+    25 to 45 —- C
+    45 to 50 —- B
+    50 to 60 –– B+
+    60 to 80 —- A
+    Above 80 –- A+
+
+2. Check if two strings are anagram or not. (care = race)
+
+3. Accept three sides of a triangle and check whether it is an equilateral, isosceles or scalene triangle.
+Note :
+An equilateral triangle is a triangle in which all three sides are equal.
+A scalene triangle is a triangle that has three unequal sides.
+An isosceles triangle is a triangle with (at least) two equal sides.
+
+4. Accept three sides of triangle and check whether the triangle is possible or not.
+(triangle is possible only when sum of any two sides is greater than 3rd side)
+ 
+5. Check whether the given key is present in the dictionary or not
+
+6. Write a program to check whether the number entered is three digit or not
+
+7. Accept the electric units from user and calculate the bill according to the following rates.
+
+First 100 Units     :  Free
+Next 200 Units      :  Rs 2 per unit.
+Above 300 Units     :  Rs 5 per unit.
+
+if number of unit is 500 then total bill = 0 +400 + 1000 = 1400
+
+8. Accept the age, sex (‘M’, ‘F’), number of days and display the wages accordingly
+
+	Age			Sex		Wage/day
+>=18 and <30			M		700
+				F		750
+	
+
+>=30 and <=40			M		800
+				F		850
+	
+Python if else
+If age does not fall in any range then display the following message: “Enter appropriate age”
+
+9.  Accept three numbers from the user and display the second largest number.
+
+10. Accept the number of days from the user and calculate the charge for library according to following :
+
+Till five days : Rs 2/day.
+Six to ten days  : Rs 3/day.
+11 to 15 days  : Rs 4/day
+After 15 days    : Rs 5/day

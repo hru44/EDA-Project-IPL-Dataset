@@ -1,0 +1,90 @@
+1. Make a calculator using function.
+ 
+2. Calculate sum of first n numbers.
+
+3. Write a python function that takes a list and returns a new list with unique elements of the first list
+
+4. Find maximum and minimum number from two numbers using function
+
+5. Find the number of uppercases and lowercases letters in string
+
+6. write a program to check number is prime or not
+
+7. Display the powers of 2 using anonymous functions
+
+8. Q3. Write a function check(key) which takes a key as an argument and 
+check whether that key is present in dictionary or not.
+
+9.  Write the output of the following :
+def s(a):
+     print(a)
+     a = a +2
+n2=4
+s(n2)
+print(n2)
+
+10. Write the output of the following:
+def cal(m,n):
+     if m==n:
+          return m*3
+     else:
+          return m*2
+s = cal(9, 8)
+print(s)
+
+11.Write the output of the following:
+def check():
+   i = 5
+   while i > 1:
+         if i //2==0:
+              x = i + 2
+              i = i-1
+        else:
+             i = i-2
+             x = i
+   print (x)
+check()
+
+12. What will be the output of the following code?
+x = 3
+def myfunc():
+      global x
+      x+=2
+     print(x, end=' ')
+print(x, end=' ')
+myfunc()
+print(x, end=' ')
+
+13. What will be the output of the following code?
+value = 50
+def display(N):
+     global value
+     value = 25
+     if N%7==0:
+           value = value + N
+    else:
+           value = value - N
+print(value, end="#")
+display(20)
+print(value)
+
+14. What is the output of the following code snippet?
+def ChangeVal(M,N):
+     for i in range(N):
+          if M[i]%5 == 0:
+               M[i]//=5
+          if M[i]%3 == 0:
+               M[i]//=3
+L = [25,8,75,12]
+ChangeVal(L,4)
+for i in L:
+     print(i,end="#")
+
+15. Write the output of the following:
+def c(x, y):
+    if x % y :
+         return x+5
+    else:
+        return y+10
+print(c(20, 5))
+

@@ -1,0 +1,32 @@
+1. Check whether the number is divisible by 7
+
+2. Check whether the given number is even or od
+
+3. Check whether the given number is positive, negative or equal to zero(input)
+
+4. check whether 'a' is in 'Python' string or not
+
+5. Find the largest number among three number with user input
+
+
+6.Check whether year is leap year or not
+
+7. Accept the following from the user and calculate the percentage of class attended:
+a.     Total number of working days
+b.     Total number of days for present
+After calculating percentage show that, If the percentage is less than 75, than student will not be able to sit in exam.
+
+
+8. Check whether the letter is vowel or not
+
+9. Write a program to accept the number from 1 to 7 and display the name of the day like 1 for sunday,2 for monday and so on.
+
+10. Accept any city from the user and display monument of that city.
+                  City                                 Monument
+                  Delhi                               Red Fort
+                  Agra                                Taj Mahal
+                  Jaipur                              Jal Mahal
+
+11. Check whether the person is eligible for voting or not.
+12. Make a simple calculator using input
+13. Check whether the figure is square or not by giving length and breadth

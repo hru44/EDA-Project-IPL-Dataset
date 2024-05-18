@@ -1,0 +1,139 @@
+1. SUM
+The SUM function is the first must-know formula in Excel. It usually aggregates
+values from a selection of columns or rows from your selected range.
+=SUM(number1, [number2], …)
+Example:
+=SUM(B2:G2) – A simple selection that sums the values of a row.
+=SUM(A2:A8) – A simple selection that sums the values of a column.
+=SUM(A2:A7, A9, A12:A15) – A sophisticated collection that sums values from
+range A2 to A7, skips A8, adds A9, jumps A10 and A11, then finally adds from
+A12 to A15.
+=SUM(A2:A8)/20 – Shows you can also turn your function into a formula.
+
+
+2. Average
+The AVERAGE function should remind you of simple averages of data such as
+the average number of shareholders in a given shareholding pool.
+=AVERAGE(number1, [number2], …)
+Example:
+=AVERAGE(A1:A10) – Shows a simple average, also similar to (SUM(A1: A10)/9)
+
+
+3. COUNT
+The COUNT function counts all cells in a given range that contains only numeric
+values.
+=COUNT(value1, [value2], …)
+Example:
+COUNT(A:A) – Counts all values that are numerical in A column. However, it
+doesn’t use the same formula to count rows.
+COUNT(A1:C1) – Now it can count rows.
+
+4. COUNTA
+Like the COUNT function, COUNTA counts all cells in a given rage. However, it
+counts all cells regardless of type. That is, unlike COUNT that relies on only
+numerics, it also counts dates, times, strings, logical values, errors, empty
+string, or text.
+=COUNTA(value1, [value2], …)
+Example:
+COUNTA(A:A) – Counts all cells in column A regardless of type. However, like
+COUNT, you can’t use the same formula to count rows.
+
+
+5. IF
+The IF function is often used when you want to sort your data according to a
+given logic. The best part of the IF formula is that you can embed formulas and
+function in it.
+=IF(logical_test, [value_if_true], [value_if_false])
+Example:
+=IF(C2<D3, ‘TRUE,’ ‘FALSE’) – Checks if the value at C3 is less than the value at
+D3. If the logic is true, let the cell value be TRUE, else, FALSE
+=IF(SUM(C1:C10) > SUM(D1:D10), SUM(C1:C10, SUM(D1:D10)) – An example
+of a complex IF logic. First, it sums C1 to C10 and D1 to D10, then it compares
+the sum. If the sum of C1 to C10 is greater than SUM of D1 to D10, then it
+makes the value of a cell equal to the sum of C1 to C10. Otherwise, it makes it
+the SUM of D1 to D10. 
+
+6. TRIM
+The TRIM function makes sure your functions do not return errors due to
+unruly spaces. It ensures that all empty spaces are eliminated. Unlike other
+functions that can operate on a range of cells, TRIM only operates on a single
+cell. Therefore, it comes with the downside of adding duplicated data in your
+spreadsheet.
+=TRIM(text)
+Example:
+TRIM(A4) – Removes empty spaces in the value in cell A4
+
+
+
+7. MAX & MIN
+The MAX and MIN functions help in finding the maximum number and the
+minimum number in a pull of values.
+=MIN(number1, [number2], …)
+Example:
+=MIN(B2:C11) – Finds the minimum number between column B from B2 and
+column C from C2 to row 11 in both column B and C.
+=MAX(number1, [number2], …)
+Example:
+=MAX(B2:C11) – Similarly, it finds the maximum number between column B
+from B2 and column C from C2 to row 11 in both column B and C.
+
+ADVANCED EXCEL FORMULAS
+
+
+1. INDEX MATCH
+Formula: =INDEX(C3:E9,MATCH(B13,C3:C9,0),MATCH(B14,C3:E3,0))
+This is an advanced alternative to the VLOOKUP or HLOOKUP formulas (which
+several drawbacks and limitations). INDEX MATCH is a powerful combination
+of Excel formulas that will take your financial analysis and financial modeling to
+the next level.
+INDEX returns the value of a cell in a table based on the column and row
+number.
+MATCH returns the position of a cell in a row or column
+
+2. IF combined with AND / OR
+Formula: =IF(AND(C2>=C4,C2<=C5),C6,C7)
+
+3. OFFSET combined with SUM or AVERAGE
+Formula: =SUM(B4:OFFSET(B4,0,E2-1))
+
+4. CHOOSE
+Formula: =CHOOSE(choice, option1, option2, option3)
+
+5. XNPV
+Formula: =XNPV(discount rate, cash flows, dates)
+
+6. SUMIF and COUNTIF
+Formula: =COUNTIF(D5:D12,”>=21″)
+
+7. PMT and IPMT
+Formula: =PMT(interest rate, # of periods, present value)
+
+
+8. LEN and TRIM
+Formulas: =LEN(text) and =TRIM(text)
+
+
+10. CELL, LEFT, MID and RIGHT functions
+
+Formula
+=DATE(year,month,day)
+
+=EOMONTH(start_date, months)
+
+
+– Using EOMONTH with SUMIF
+SUMIFS((C3:C11),(B3:B11),”>=”&E4,(B3:B11),”<=”&EOMONTH(E4,0))
+
+
+=IF(INT(YEARFRAC(A1,TODAY()))<35,”Eligible”,”Not Eligible”)
+
+
+=AND(logical1, [logical2], …)
+The AND function uses the following arguments:
+1. Logical1 (required argument) – It is the first condition or logical value to be
+evaluated.
+2. Logical2 (optional requirement) – It is the second condition or logical value
+to be evaluated.
+
+
+

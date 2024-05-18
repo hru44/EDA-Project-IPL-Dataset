@@ -1,0 +1,10 @@
+1. Object - parrot
+2. Program to show that the variables with the values assign in the class declaration, are class variable 
+   and variable inside method and constructors, are instance variable.
+3 Check whether encapsulation(private variable) handle with inheritance or not
+4 Create a Bus class that inherits from the vehicle class. 
+  Give the capacity arguement of Bus.seating_capacity() a default value of 50.
+5 Define a class attribute color with a default value white. i.e. Every vehicle should be white.
+6 Create a Bus child class that inherits from the vehicle class. The default fare charge of any vehicle is 
+   (Seating capacity * 100). If vehicle is Bus Instance, we need to add an extra 10% on full fare as maintenance charge.
+   so total fare for bus instance will become the (Final amount = total fare + 10 % of the total fare).

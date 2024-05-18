@@ -1,0 +1,14 @@
+selectcolum ==  DAX Functions
+
+table == table name   }
+
+name == column name   }   Parameters with standard naming expression
+
+scalar expression == expression }
+
+
+name == column name    }
+                                           Optional Parameters
+scalar expression == expression   }
+
+... } Optional parameters of rep

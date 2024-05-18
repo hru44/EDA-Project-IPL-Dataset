@@ -1,0 +1,28 @@
+
+Q1. Take two variables of number and character and concatenate it. ex. yournamebirthdate.
+
+Q2. Take three variable. Ex. emailid.
+
+Q3. Take three variable and print your full name.
+
+Q4. Find out the percentage of the student using input users( 5 subject, Total marks = 500 ).
+
+Q5. Find out Area of Rectangle using input user. (length x breadth)
+
+Q6. Find out Area of Square using input user.  (length x length)
+
+Q7. Find out Area of Circle using input user.  ( pie x radius x radius) 
+
+Q8. Find out Perimeter of Rectangle. (2 length + 2 breadth)
+
+Q9. Find out Perimeter of Square. ( 4 x side)
+
+Q10.Find out circumferance of Circle. ( 2 x pie x radius)
+
+Q11.Find out of Volume of Cube. (length x length x length)
+
+Q12.Find out Volume of Cuboid.  ( length x breadth x height)
+
+Q13.Find out total surface area of Cube. ( 6 x length x length)
+
+Q14.Find out total surface area of Cuboid. ( 2lb + 2bh + 2lh)
